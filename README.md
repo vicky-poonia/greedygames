@@ -68,3 +68,55 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!-- 
+
+
+{/* <div className="table-responsive min-h-500px">
+          {showList.loading ? (
+            <div className="text-center p-4">
+              <Loader />
+            </div>
+          ) : shows?.length ? (
+            <>
+              <table className="table mb-0 text-nowrap text-wrap-table">
+                <thead className="table-light">
+                  <tr>
+                    <th scope="col" className="border-0"> App </th>
+                    <th scope="col" className="border-0"> Clicks </th>
+                    <th scope="col" className="border-0"> Requests </th>
+                    <th scope="col" className="border-0"> Responses </th>
+                    <th scope="col" className="border-0"> Revenue </th>
+                    <th scope="col" className="border-0"> Fill rate </th>
+                    <th scope="col" className="border-0"> CTR </th>
+                    <th scope="col" className="border-0" />
+                  </tr>
+                </thead>
+                <tbody>
+                  {shows.map((el, i) => {
+                    return (
+                      <tr key={`show-${i + 1}`}>
+                        <td className="align-middle border-top-0"> {el.show.name} </td>
+                        <td className="align-middle border-top-0"> {el.show.language} </td>
+                        <td className="align-middle border-top-0">
+                          <div><b>Time : </b>{el.show.schedule.time}</div>
+                          <div><b>Days : </b>{el.show.schedule.days.join(", ")}</div>
+                        </td>
+                        <td className="align-middle border-top-0"> {el.show.genres.join(", ")} </td>
+                        <td className="align-middle border-top-0"> {moment(el.show.premiered).format("DD MMM YYYY")} </td>
+                        <td className="align-middle border-top-0">
+                          <button className="btn btn-primary btn-sm" onClick={() => navigateToDetails(el.show)}>See details</button>
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </>
+          ) : (
+            <div className="text-center p-4">No data found</div>
+          )}
+
+
+        </div> */} -->

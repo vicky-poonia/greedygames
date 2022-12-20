@@ -1,0 +1,39 @@
+.bbttn {
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.bbttn button {
+    height: 35px;
+    margin-left: 930px;
+}
+
+.outerd{
+    padding-bottom: 10px;
+    border: 1px solid rgb(184, 179, 179); 
+}
+
+.btn1{
+    margin :0px 10px 0px 1050px;
+}
+
+.columns{
+    margin: 15px;
+}
+
+.columns h6{
+    margin: 95px 35pox 0px;
+}
+
+.columns button{
+    width: 145px;
+    margin: 0px 0px 10px 10px;
+    border-left-color: rgb(58, 10, 201);
+    border-left-width: thick;
+}
+
+/* table  */
+
+.table{
+    margin-top: 20px;
+}

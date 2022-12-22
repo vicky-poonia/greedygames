@@ -47,11 +47,11 @@ const Apifetch = () => {
                 <tr>
                   <th scope="col" className="border-0"> App </th>
                   <th scope="col" className="border-0"> Clicks </th>
-                  <th scope="col" className="border-0"> Requests </th>
+                  {/* <th scope="col" className="border-0"> Requests </th>
                   <th scope="col" className="border-0"> Responses </th>
                   <th scope="col" className="border-0"> Revenue </th>
                   <th scope="col" className="border-0"> Fill rate </th>
-                  <th scope="col" className="border-0"> CTR </th>
+                  <th scope="col" className="border-0"> CTR </th> */}
                   <th scope="col" className="border-0" />
                 </tr>
               </thead>
